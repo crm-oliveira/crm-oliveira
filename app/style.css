@@ -2,3 +2,22 @@
 
 /* Assistente Oliveira — interface responsiva inspirada em assistentes de CRM */
 .assistant-wrap{max-width:790px;margin:18px auto;padding:28px 22px;background:#fff;border:1px solid #e6e9f2;border-radius:26px;box-shadow:0 12px 40px #142b5210;color:#202638}.assistant-orb{width:66px;height:66px;border-radius:50%;display:grid;place-items:center;color:white;font-size:30px;background:linear-gradient(135deg,#2142e9,#8ea8ff);box-shadow:0 6px 24px #365eff66;margin:12px 0 35px}.assistant-greeting{font-size:clamp(29px,5vw,42px);font-weight:500;color:#315bfa;margin:0}.assistant-subtitle{font-size:clamp(25px,4vw,38px);font-weight:400;color:#969caf;margin:0 0 22px}.assistant-wrap>.muted{font-size:17px;line-height:1.7}.assistant-suggestions{display:grid;gap:12px;margin:30px 0}.assistant-suggestions button{border:0;background:#eef1f7;border-radius:19px;padding:18px;text-align:left;font-size:16px;color:#222b3a;cursor:pointer}.assistant-suggestions button:hover{background:#dce5ff}.assistant-response{color:#576176;padding:14px 2px;min-height:45px}.assistant-input{display:flex;gap:8px;margin-top:22px}.assistant-input input{flex:1;min-width:0;border:1px solid #d7deea;border-radius:22px;padding:16px;font-size:16px}.assistant-input button{border:0;border-radius:20px;padding:0 18px;background:#315bfa;color:white;cursor:pointer}@media(max-width:700px){.assistant-wrap{padding:20px 15px;border-radius:16px}.assistant-suggestions button{padding:16px}.assistant-input input{width:100%}}
+
+/* Melhorias de acessibilidade e responsividade */
+.nav:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #e7bc78;outline-offset:2px}
+.card{transition:transform .18s,border-color .18s}.card:hover{transform:translateY(-2px);border-color:#4a5362}
+input[type="search"]{max-width:540px}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important}}
+
+/* Login profissional e identidade Oliveira */
+.login{position:relative;margin:8vh auto;max-width:460px;padding:42px;background:linear-gradient(145deg,#172231,#101925);border:1px solid #344156;box-shadow:0 32px 85px #0008}
+.login:before{content:'';position:absolute;top:0;left:25px;right:25px;height:2px;background:linear-gradient(90deg,transparent,#d9ab65,transparent)}
+.login-emblem{display:grid;place-items:center;width:58px;height:58px;border:1px solid #d9ab65;border-radius:16px;color:#e9c58e;font-size:35px;font-weight:800;margin-bottom:20px;background:#d9ab6512}
+.login .brand{letter-spacing:2px;font-size:29px}
+.login .subtitle{margin:5px 0 27px}
+.login h2{margin:0 0 5px;font-size:25px}
+.login .muted{margin:0 0 24px}
+.login input{margin:7px 0 12px;min-height:48px}
+.login button{min-height:48px;margin-top:12px}
+.login-footnote{margin:20px 0 0;text-align:center;color:#94a4b8;font-size:12px}
+@media(max-width:520px){.login{margin:5vh 12px;padding:28px}}
